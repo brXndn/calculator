@@ -16,7 +16,7 @@ def power(x, y):
   return x ** y
 
 
-operation = input("What operation would you like to do? (Add, Subtract, Multiply, Divide, Exponent").title().strip()
+operation = input("What operation would you like to do? (Add, Subtract, Multiply, Divide, Exponent) ").title().strip()
 
 firstNum = int(input("Enter a first number): "))
 secondNum = int(input("Enter a second number): "))
